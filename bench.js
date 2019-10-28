@@ -43,6 +43,7 @@ if (single) {
   require('./benchmarks/crypto.randomFillSync')(suite)
   require('./benchmarks/crypto.randomFill')(suite)
   require('./benchmarks/dev-random')(suite)
+  require('./benchmarks/uuid-1345')(suite)
 
   // other
   require('./benchmarks/hyperid')(suite)
